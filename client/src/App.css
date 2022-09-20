@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+input, button{
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  margin: 5px;
+  border-radius: 10px;
+  border : 2px solid red;
+  padding: 10px;
+}
+
+button {
+  padding-bottom: 30px;
+}
+
+
+.seprate-data{
+  /* background-color: red; */
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.return-item-div{
+  background-color: yellow;
+  padding: 15px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border: 3px solid red;
+  border-radius: 10px;
+}
